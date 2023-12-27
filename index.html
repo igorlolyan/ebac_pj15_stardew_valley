@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <header>
+        <section id="cabecalho" class="fundoLaranja">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg fundoLaranja fixed-top">
+                    <a class="navbar-brand textoBranco" href="#">Stardew Valley</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link textoBranco" href="#sobre-o-jogo">Sobre o jogo</a>
+                            <a class="nav-item nav-link textoBranco" href="#mapa">Mapa</a>
+                            <a class="nav-item nav-link textoBranco" href="#animais-e-ferramentas">Animais e
+                                Ferramentas</a>
+                            <a class="nav-item nav-link textoBranco" href="#easter-eggs">Easter Eggs</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section id="carrossel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/stardew1.png" class="d-block w-100" alt="Foto do jogo">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/stardew2.jpg" class="d-block w-100" alt="Foto do jogo">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/stardew3.png" class="d-block w-100" alt="Foto do jogo">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <div data-bs-spy="scroll" data-bs-target="#navMenu">
+        <section id="sobre-o-jogo" class="my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="imagens/Sobre-o-Jogo.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <h2>Sobre o jogo</h2>
+                        <p class="text-justify">Stardew Valley é um jogo de simulação de fazenda desenvolvido por
+                            ConcernedApe. Lançado em 2016, o jogador herda uma fazenda decadente e tem a tarefa de
+                            transformá-la em uma próspera propriedade agrícola. O jogo combina elementos de agricultura,
+                            mineração, pesca, criação de animais e interações com personagens locais. Além disso, os
+                            jogadores podem explorar cavernas misteriosas, participar de festivais na cidade e até mesmo
+                            desenvolver relacionamentos românticos. Stardew Valley é elogiado por sua jogabilidade
+                            relaxante, charme pixelizado e a capacidade de os jogadores moldarem sua própria narrativa
+                            agrícola.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mapa" class="my-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Mapas</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/mapa01.webp" class="d-block w-100 rounded" alt="">
+                        <h2>Fazenda</h2>
+                        <p>O mapa da fazenda em Stardew Valley é o local onde os jogadores cultivam colheitas, criam
+                            animais e constroem estruturas. Existem quatro mapas de fazendas diferentes para escolher:
+                            Padrão, Rio, Floresta e Montanha. Cada um tem características únicas, como espaço para
+                            pesca, mineração ou cultivo de árvores.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/mapa02.png" class="d-block w-100 rounded" alt="">
+                        <h2>Vila Pelicano</h2>
+                        <p>A cidade principal de Stardew Valley é um cenário vibrante e essencial para a experiência do
+                            jogo. Desde a Fazenda do Pierre, que fornece sementes e utensílios agrícolas, até o Saloon
+                            do Gus, onde eventos sociais e interações sociais ocorrem, cada local desempenha um papel
+                            crucial.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/mapa03.webp" class="d-block w-100 rounded" alt="">
+                        <h2>Mina</h2>
+                        <p>A mina em Stardew Valley é uma fonte valiosa de minérios, gemas e desafios. Descendo por
+                            vários níveis, os jogadores enfrentam monstros, coletam recursos e avançam na trama, sendo
+                            essencial para o progresso na fazenda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="animais-e-ferramentas" class="my-5">
+            <div class="container">
+                <h2 class="text-center">Animais e Ferramentas</h2>
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3 col-md-2" id="v-pills-tab">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button">Pets</button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button">Animais de Galinheiro</button>
+                        <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-disabled" type="button">Animais de Celeiro</button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button">Ferramentas</button>
+                    </div>
+                    <div class="tab-content col-md-10" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/cachorro.jpg"
+                                        alt="Cachorro">
+                                    <h2>Cachorro</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/gato.jpg" alt="Gato">
+                                    <h2>Gato</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/galinha.jpg" alt="Galinha">
+                                    <h2>Galinha</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/pato.jpeg" alt="Pato">
+                                    <h2>Pato</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/coelho.png" alt="Coelho">
+                                    <h2>Coelho</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/dinossauro.jpg"
+                                        alt="Dinossauro">
+                                    <h2>Dinossauro</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disabled">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/vaca.jpg" alt="Vaca">
+                                    <h2>Vaca</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/cabra.jpg" alt="Cabra">
+                                    <h2>Cabra</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/ovelha.jpg" alt="Ovelha">
+                                    <h2>Ovelha</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/porco.jpg" alt="Porco">
+                                    <h2>Porco</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Animais/avestruz.jpg"
+                                        alt="Avestruz">
+                                    <h2>Avestruz</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/enxada.png"
+                                        alt="enxada">
+                                    <h2>Enxada</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/foice.png" alt="Foice">
+                                    <h2>Foice</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/lixo.png" alt="lixo">
+                                    <h2>Lixo</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/machado.png"
+                                        alt="Machado">
+                                    <h2>Machado</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/picareta.png"
+                                        alt="Picareta">
+                                    <h2>Picareta</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/regador.png"
+                                        alt="Regador">
+                                    <h2>Regador</h2>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/Ferramentas/vara.png" alt="Vara">
+                                    <h2>Vara</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="easter-eggs" class="mt-5">
+            <div class="container">
+                <h2 class="text-center">Easter Eggs</h2>
+                <h3>Chapéus</h3>
+                <p>
+                    Os chapéus podem ser colocados em:
+                    Crianças (no estágio 4) e cavalos. Eles podem ser removidos segurando outro chapéu e clicando sobre eles
+                    novamente; isso vai dropar o chapéu antigo, mas não colocará o novo, a menos que você o faça novamente.
+                    Espantalho Raro 3 (Alien). Eles podem então ser trocados por outro chapéu, mas só podem ser totalmente
+                    removido quebrando o espantalho raro que deixa cair os dois itens.
+                    Ouriços-do-mar em Lagos de Peixes segurando o chapéu e clicando no lago. Eles podem ser removidos
+                    abrindo o inventário do tanque de peixes e tirando o chapéu.
+                </p>
+                <h3>Calções Roxos da Sorte</h3>
+                <p>Os Calções Roxos da Sorte (Springobjects789.png e Springobjects071.png) do Prefeito Lewis tem vários
+                    segredos.
+                    Costurar os Springobjects789.png Calções roxos da sorte com uma Barra de ouro produz os
+                    Springobjects071.png Shorts Roxos da Sorte. Eles são equivalentes aos Calções roxos da sorte para
+                    completar a missão ou ativar os outros segredos, mas também podem ser usados ​​pelo jogador para uma
+                    reação divertida da Marnie e do Lewis.
+                    Os Shorts Roxos da Sorte também podem ser adquiridos colocando uma escadaria no slot de calça do
+                    jogador.
+                    Colocando-os na sopa do Luau obtém uma resposta única do Governador e do Lewis.
+                    Colocando-os no estande da Feira do Vale do Orvalho desqualifica o jogador, e Lewis dá ao jogador
+                    Token.png750 Fichas-Estrela como um suborno para manter seu segredo. Marnie também dá um diálogo único
+                    na Feira depois de ver os calções no estande.
+                    Dando a Lewis seus Calções Roxos da Sorte enquanto ele está visitando a Ilha Gengibre fará com que ele
+                    os use como traje de praia por 28 dias.</p>
+                <h3>Crianças Pombos</h3>
+                <p>Transformando crianças em pombas desbloqueia vários Easter eggs.
+                    Você pode receber um misterioso Telefonema: "Você coloca o telefone na orelha, e tudo que escuta é uma
+                    estática irritante e abrasiva. Mas espera... no fundo de tudo, você consegue entender alguma coisa...
+                    uma voz sobrenatural... 'V-O-C-Ê N-O-S A-B-A-N-D-O-N-O-U' ". Isso não acontece mais quando você
+                    desbloqueia o spawn do boneco amaldiçoado abaixo.
+                    Na Fazenda Padrão, assistindo TV no outono 26 e escolhendo "???" vai mostrar um Boneco antigo na tela da
+                    TV com uma mensagem estranha: "Você trouxe isso a si mesmo... agora estou livre... Hee hee hee!", e um
+                    Boneco antigo sairá da TV. Depois disso, uma Boneco antigo amaldiçoado voará e atacará os jogadores na
+                    frente do Altar Negro do Egoísmo. Quando morto, ele se transforma em um grande pássaro preto e voa para
+                    longe. Saindo e entrando novamente na Cabana da Bruxa, a boneca renascerá. (Matar este boneco conta para
+                    o Metas de Erradicação de Monstros de matar 200 Morcegos)
+                    Na Fazenda Quatro Cantos, os jogadores podem pegar um boneco antigo uma vez enquanto pescam.
+                    Se você transformou várias crianças em pombos, há 15% de chance de que eles voem em formação no Cume.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+
+</html>

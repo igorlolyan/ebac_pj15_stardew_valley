@@ -1,0 +1,78 @@
+:root {
+    --orange: #BF7c2A;
+    --yellow: #F2AB27;
+    --green: #55A61C;
+    --blue: #2E78A6;
+    --pink: #F288EB;
+    --white: #fff;
+    --black: #000;
+    --grey: #c4c4c4;
+}
+
+.fundoLaranja {
+    background-color: var(--orange);
+}
+
+.textoBranco {
+    color: var(--white);
+    font-weight: bold;
+}
+
+#cabecalho a.nav-link:hover,
+#cabecalho a.nav-link,
+#cabecalho .navbar-brand:hover{
+    color: var(--white);
+}
+
+#cabecalho .navbar-brand:focus {
+    color: var(--white);
+}
+/* #cabecalho .navbar-brand:focus:hover{
+    color: white;
+} */
+
+
+
+
+
+
+.text-justify {
+    text-align: justify;
+}
+
+#sobre-o-jogo h2{
+    font-weight: bold;
+}
+
+#sobre-o-jogo p {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+#mapa img{
+    height: 300px;
+}
+
+
+
+#animais-e-ferramentas img {
+    height: 200px;
+}
+
+#animais-e-ferramentas button:focus {
+    background-color: var(--orange);
+}
+
+#animais-e-ferramentas .nav-link.active {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+#animais-e-ferramentas button {
+    color: var(--black);
+}
